@@ -1,11 +1,49 @@
+input[type=text].jr-highlighted {
+  outline: none;
+  transition: all, 0.3s, ease-in-out; }
+  input[type=text].jr-highlighted:focus {
+    border: 2px solid lime;
+    box-shadow: 0 0 5px lime; }
+
+.jr-tilty {
+  transition: transform 0.3s; }
+  .jr-tilty:hover {
+    transform: rotate(10deg); }
+
+.jr-grow-10 {
+  transition: transform 0.3s; }
+  .jr-grow-10:hover {
+    transform: scale(1.1, 1.1); }
+
+.jr-grow-20 {
+  transition: transform 0.3s; }
+  .jr-grow-20:hover {
+    transform: scale(1.2, 1.2); }
+
+.jr-grow-30 {
+  transition: transform 0.3s; }
+  .jr-grow-30:hover {
+    transform: scale(1.3, 1.3); }
+
+.jr-grow-40 {
+  transition: transform 0.3s; }
+  .jr-grow-40:hover {
+    transform: scale(1.4, 1.4); }
+
+.jr-grow-50 {
+  transition: transform 0.3s; }
+  .jr-grow-50:hover {
+    transform: scale(1.5, 1.5); }
+
 #example-rounded {
   cursor: pointer;
   border-radius: 7px;
   text-align: center;
   width: 70px;
   font: Arial;
-  background-color: red;
-  color: white; }
+  padding: 10px 20px;
+  background-color: lime;
+  color: darkgreen; }
 
 #example-centered-wrapper {
   width: 70px;
@@ -20,5 +58,14 @@
   width: 50px;
   height: 50px;
   background: lime; }
+
+#tilty, .grow {
+  width: 50px;
+  height: 50px;
+  background: lime;
+  border: 1px solid black; }
+
+.grow {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
