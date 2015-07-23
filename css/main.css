@@ -35,6 +35,14 @@ input[type=text].jr-highlighted {
   .jr-grow-50:hover {
     transform: scale(1.5, 1.5); }
 
+.jr-tooltip {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  padding: 15px;
+  max-width: 300px;
+  border-radius: 7px; }
+
 #example-rounded {
   cursor: pointer;
   border-radius: 7px;
