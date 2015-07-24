@@ -1,10 +1,28 @@
 @import 'jr-framework';
 
+.mask{
+  position: fixed;
+  top: 1px;
+  left: 1px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.7);
+}
+
 .outfit{
   height: 600px;
   width:  400px;
   display: inline-block;
   background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.big-outfit{
+  background-size: 600px 900px, cover;
+  margin: 0 auto;
+  height: 900px;
+  width: 600px;
   background-repeat: no-repeat;
   background-position: center center;
 }
