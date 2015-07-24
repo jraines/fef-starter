@@ -1,3 +1,16 @@
+$.fn.stripe = function(){
+  $table = this;
+
+  $rows = $table.find('tr');
+
+  _.each($rows, function(row, index) {
+    if (index % 2 == 0) {
+      $(row).css('background-color', '#DEDEDE');
+    }
+  });
+
+}
+
 //this makes the function a jQuery plugin
 $.fn.tooltip = function(text){
 
