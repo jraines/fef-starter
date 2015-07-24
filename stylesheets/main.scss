@@ -1,5 +1,15 @@
 @import 'jr-framework';
 
+.outfit{
+  height: 600px;
+  width:  400px;
+  display: inline-block;
+  background-size: 400px 600px, cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
 #example-rounded{
   @include rounded-button(7px);
   width: 70px;
