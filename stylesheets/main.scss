@@ -9,6 +9,16 @@
   background-position: center center;
 }
 
+#next, #prev {
+  display: inline-block;
+  font-size: 40px;
+  padding: 20px;
+  cursor: pointer;
+  &:hover {
+    color: blue;
+  }
+}
+
 
 #example-rounded{
   @include rounded-button(7px);

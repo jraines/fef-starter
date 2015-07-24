@@ -51,6 +51,14 @@ input[type=text].jr-highlighted {
   background-repeat: no-repeat;
   background-position: center center; }
 
+#next, #prev {
+  display: inline-block;
+  font-size: 40px;
+  padding: 20px;
+  cursor: pointer; }
+  #next:hover, #prev:hover {
+    color: blue; }
+
 #example-rounded {
   cursor: pointer;
   border-radius: 7px;
